@@ -1,9 +1,21 @@
 .logo img {
-	width: 100%;
+	width: 70%;
+	padding: 1rem 0;
 }
 
 .f-r img {
 	float: right;
+	width: 100%;
+}
+
+.f-r {
+	display: flex;
+	align-items: center;
+}
+
+.logo div {
+	display: flex;
+	justify-content: space-evenly;
 }
 
 h2 {
@@ -31,6 +43,10 @@ li>a {
 	text-align: center;
 	filter: drop-shadow(2px 4px 6px black);
 	border-radius: 0 0 30px 30px;
+}
+
+.menu a {
+	white-space: nowrap;
 }
 
 .menu a:hover {
